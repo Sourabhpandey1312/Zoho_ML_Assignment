@@ -1,0 +1,26 @@
+{
+    "RandomForest": {
+        "MSE": 212.20401373207204,
+        "RMSE": 14.56722395420871,
+        "MAE": 11.30731766859933,
+        "R2": 0.48821581680064396
+    },
+    "GradientBoosting": {
+        "MSE": 203.940287108238,
+        "RMSE": 14.280766334767824,
+        "MAE": 11.402104211148634,
+        "R2": 0.5081459043893806
+    },
+    "LinearRegression": {
+        "MSE": 284.74490413625995,
+        "RMSE": 16.87438603731288,
+        "MAE": 13.060202706177241,
+        "R2": 0.31326493019330803
+    },
+    "'XGBoost': Pipeline(steps=[\n            ('preprocessor', preprocessor),\n            ('regressor', XGBRegressor(random_state=42))\n        ]),\n        'LightGBM': Pipeline(steps=[\n            ('preprocessor', preprocessor),\n            ('regressor', LGBMRegressor(random_state=42))\n        ]),SVR": {
+        "MSE": 213.74286290394653,
+        "RMSE": 14.619947431641009,
+        "MAE": 11.298741120293403,
+        "R2": 0.48450448894852727
+    }
+}
