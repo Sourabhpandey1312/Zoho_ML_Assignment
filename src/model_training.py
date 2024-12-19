@@ -32,7 +32,7 @@ def get_models(preprocessor):
         ]),
         'LinearRegression': Pipeline(steps=[
             ('preprocessor', preprocessor),
-            ('regressor', LinearRegrẻ̉̉ssion())
+            ('regressor', LinearRegression())
         ]),
         ''''XGBoost': Pipeline(steps=[
             ('preprocessor', preprocessor),
